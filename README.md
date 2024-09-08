@@ -41,7 +41,8 @@ Install dependencies with npm
 Setting up the environment
 
 ```bash
-  Duplicate the .env file to .env.local and modify the values to suit your local configuration.
+  Duplicate the .env file to .env.local and modify the values to suit 
+  your local configuration.
   In particular, the database connection string (DATABASE_URL).
 ```
 
