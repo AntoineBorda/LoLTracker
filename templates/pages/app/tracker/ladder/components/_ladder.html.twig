@@ -1,0 +1,65 @@
+{% set ladderProps = [] %}
+
+{% for trackerData in trackersData %}
+
+    {% set ranking = trackerData.rank | default(null) %}
+    {% set image = trackerData.tracker.player.image | default(null) %}
+    {% set summonerName = trackerData.tracker.player.summonerName | default(null) %}
+    {% set flag = trackerData.tracker.player.country.flag | default(null) %}
+    {% set country = trackerData.tracker.player.country.common | default(null) %}
+    {% set riotID = trackerData.tracker.riotInfo.gameName ~ '#' ~ trackerData.tracker.riotInfo.tagLine | default(null) %}
+    {% set role = trackerData.mostTeamposition.teamPosition|capitalize | default(null) %}
+    {% set roleImage = asset('build/img/communitydragon/role-icons/' ~ trackerData.mostTeamposition.teamPosition|lower ~ '.png') | default(null) %}
+    {% set favoritesChampions = [] %}
+    {% for mostUsedChampion in trackerData.mostUsedChampions %}
+        {% set favoritesChampions = favoritesChampions|merge([{
+            'image':  asset(mostUsedChampion.image) | default(null),
+            'name': mostUsedChampion.name | default(null) }]) %}
+    {% endfor %}
+    {% set tier = trackerData.lastGame.tier|capitalize | default(null) %}
+    {% set tierImage = asset('build/img/communitydragon/division-icons/' ~ trackerData.lastGame.tier|lower ~ '.png') | default(null) %}
+    {% set rank = null %}
+    {% if trackerData.lastGame.tier not in ['MASTER', 'GRANDMASTER', 'CHALLENGER'] %}
+        {% set rank = trackerData.lastGame.rank | default(null) %}
+    {% endif %}
+    {% set leaguePoints = trackerData.lastGame.leaguePoints | default(null) %}
+    {% set wins = trackerData.lastGame.wins | default(null) %}
+    {% set losses = trackerData.lastGame.losses | default(null) %}
+    {% set winRate = ((trackerData.lastGame.wins / (trackerData.lastGame.wins + trackerData.lastGame.losses)) * 100) | round(1, 'common') | default(null) %}
+    {% set teams = [] %}
+    {% for team in trackerData.tracker.player.teams %}
+        {% if team.isActive %}
+            {% set teams = teams|merge([{
+                'image': asset(team.dataTeam.image)|default(null),
+                'name': team.dataTeam.name|default(null)
+            }]) %}
+        {% endif %}
+    {% endfor %}
+    {% set trackerPath = path('app_tracker_playertracker', {'tracker_id' : trackerData.tracker.id}) %}
+
+    {% set ladderProps = ladderProps|merge([{
+        'ranking': ranking,
+        'image': image,
+        'summonerName': summonerName,
+        'flag': flag,
+        'country': country,
+        'riotID': riotID,
+        'role': role,
+        'roleImage': roleImage,
+        'favoritesChampions': favoritesChampions,
+        'tier': tier,
+        'tierImage': tierImage,
+        'rank': rank,
+        'leaguePoints': leaguePoints,
+        'wins': wins,
+        'losses': losses,
+        'winRate': winRate,
+        'teams': teams,
+        'trackerPath': trackerPath
+    }]) %}
+
+{% endfor %}
+
+<div {{ react_component('Ladder', {'ladderProps': ladderProps} ) }}>
+    <twig:ux:icon name="line-md:loading-loop" class="w-10"/>
+</div>

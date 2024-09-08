@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "tier": "Unranked",
+    "image": "Unranked.webp"
+  },
+  {
+    "id": 101,
+    "tier": "Iron",
+    "image": "Iron.webp"
+  },
+  {
+    "id": 201,
+    "tier": "Bronze",
+    "image": "Bronze.webp"
+  },
+  {
+    "id": 301,
+    "tier": "Silver",
+    "image": "Silver.webp"
+  },
+  {
+    "id": 401,
+    "tier": "Gold",
+    "image": "Gold.webp"
+  },
+  {
+    "id": 604,
+    "tier": "Emerald",
+    "image": "Emerald.webp"
+  },
+  {
+    "id": 704,
+    "tier": "Diamond",
+    "image": "Diamond.webp"
+  },
+  {
+    "id": 801,
+    "tier": "Master",
+    "image": "Master.webp"
+  },
+  {
+    "id": 901,
+    "tier": "Grandmaster",
+    "image": "Grandmaster.webp"
+  },
+  {
+    "id": 1001,
+    "tier": "Challenger",
+    "image": "Challenger.webp"
+  }
+]

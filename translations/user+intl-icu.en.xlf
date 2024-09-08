@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="if1CjXB" resname="base.title">
+        <source>base.title</source>
+        <target>__base.title</target>
+      </trans-unit>
+      <trans-unit id="w7kzsDW" resname="my_info.base.title">
+        <source>my_info.base.title</source>
+        <target>__my_info.base.title</target>
+      </trans-unit>
+      <trans-unit id="xWqODPR" resname="my_info_edit.header.title">
+        <source>my_info_edit.header.title</source>
+        <target>__my_info_edit.header.title</target>
+      </trans-unit>
+      <trans-unit id="KtelOg0" resname="edit_info.delete_account.p">
+        <source>edit_info.delete_account.p</source>
+        <target>__edit_info.delete_account.p</target>
+      </trans-unit>
+      <trans-unit id="T4EGYRv" resname="edit_info.delete_account.a">
+        <source>edit_info.delete_account.a</source>
+        <target>__edit_info.delete_account.a</target>
+      </trans-unit>
+      <trans-unit id="hMYzfcS" resname="riot_infos.base.title">
+        <source>riot_infos.base.title</source>
+        <target>__riot_infos.base.title</target>
+      </trans-unit>
+      <trans-unit id="kbZ3uVI" resname="riotinfo.header.title">
+        <source>riotinfo.header.title</source>
+        <target>__riotinfo.header.title</target>
+      </trans-unit>
+      <trans-unit id="iwZaFI8" resname="riotinfo.help">
+        <source>riotinfo.help</source>
+        <target>__riotinfo.help</target>
+      </trans-unit>
+      <trans-unit id="5B4DtN1" resname="riotinfo.linksuccess">
+        <source>riotinfo.linksuccess</source>
+        <target>__riotinfo.linksuccess</target>
+      </trans-unit>
+      <trans-unit id="nZP3H9i" resname="riotinfo.nolink">
+        <source>riotinfo.nolink</source>
+        <target>__riotinfo.nolink</target>
+      </trans-unit>
+      <trans-unit id="I4LDD8T" resname="security.base.title">
+        <source>security.base.title</source>
+        <target>__security.base.title</target>
+      </trans-unit>
+      <trans-unit id="NBdKWf8" resname="securityDelete.header.title">
+        <source>securityDelete.header.title</source>
+        <target>__securityDelete.header.title</target>
+      </trans-unit>
+      <trans-unit id="cMQ.qlU" resname="securityDelete.warning">
+        <source>securityDelete.warning</source>
+        <target>__securityDelete.warning</target>
+      </trans-unit>
+      <trans-unit id="529RD2B" resname="security_edit.header.title">
+        <source>security_edit.header.title</source>
+        <target>__security_edit.header.title</target>
+      </trans-unit>
+      <trans-unit id="FTTCSNd" resname="twitch_infos.base.title">
+        <source>twitch_infos.base.title</source>
+        <target>__twitch_infos.base.title</target>
+      </trans-unit>
+      <trans-unit id="yYYsETz" resname="twitchinfo.header.title">
+        <source>twitchinfo.header.title</source>
+        <target>__twitchinfo.header.title</target>
+      </trans-unit>
+      <trans-unit id="Ih57Ley" resname="twitchinfo.linksuccess">
+        <source>twitchinfo.linksuccess</source>
+        <target>__twitchinfo.linksuccess</target>
+      </trans-unit>
+      <trans-unit id="js0hov6" resname="twitchinfo.nolink">
+        <source>twitchinfo.nolink</source>
+        <target>__twitchinfo.nolink</target>
+      </trans-unit>
+      <trans-unit id="e.FLs2u" resname="twitchinfo.link">
+        <source>twitchinfo.link</source>
+        <target>__twitchinfo.link</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

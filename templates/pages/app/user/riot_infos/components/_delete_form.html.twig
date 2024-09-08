@@ -1,0 +1,11 @@
+<form class="d-inline sa-alertmessage-doublecheck" method="post" action="{{ path('user_riotinfos_delete', {'id': riotInfo.id}) }}" data-titlefirst="{{ 'riotinfos.delete.titlefirst'|trans({}, 'alertmessage') }}" data-textfirst="{{ 'riotinfos.delete.textfirst'|trans({}, 'alertmessage') }}" data-cancelfirst="{{ 'riotinfos.delete.cancelfirst'|trans({}, 'alertmessage') }}" data-confirmfirst="{{ 'riotinfos.delete.confirmfirst'|trans({}, 'alertmessage') }}" data-titlesecond="{{ 'riotinfos.delete.titlesecond'|trans({}, 'alertmessage') }}" data-cancelsecond="{{ 'riotinfos.delete.cancelsecond'|trans({}, 'alertmessage') }}" data-confirmsecond="{{ 'riotinfos.delete.confirmsecond'|trans({}, 'alertmessage') }}">
+
+	<input type="hidden" name="_token" value="{{ csrf_token('delete' ~ riotInfo.id) }}">
+	<button class="btn btn-link p-0">
+		<div class="text-danger fs-xs">
+			<i class="fa-solid fa-link-slash"></i>
+			{{ 'disconnected'|trans({}, 'common') }}
+		</div>
+	</button>
+
+</form>

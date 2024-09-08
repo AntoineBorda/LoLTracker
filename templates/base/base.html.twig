@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><circle cx=%2264%22 cy=%2264%22 r=%2260%22 fill=%22%23ffcc01%22 /></svg>">
+
+		{% include 'base/_matomo.html.twig' %}
+
+		<title>
+			{% block title %}LoLTracker
+			{% endblock %}
+		</title>
+
+		{% block stylesheets %}
+			{{ encore_entry_link_tags('app') }}
+		{% endblock %}
+
+		{% block javascripts %}
+			{{ encore_entry_script_tags('app') }}
+		{% endblock %}
+	</head>
+
+	<body class="{{ app.request.cookies.get('theme', 'light') }}">
+
+		{% include('partials/_navigation.html.twig') %}
+
+		<div
+			class="flex flex-col w-full min-h-screen pt-10 sm:bg-muted/40 pe-5 ps-5 sm:pe-10 sm:ps-24">
+			{# Body	 #}
+			{% block body %}{% endblock %}
+		</div>
+
+		{% include('partials/_footer.html.twig') %}
+
+	</body>
+
+</html>

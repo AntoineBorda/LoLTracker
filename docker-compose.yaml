@@ -1,0 +1,33 @@
+services:
+  # PHP
+  php:
+    image: php:8.3.0-fpm
+    volumes:
+      - php_data:/var/www/html
+    container_name: loltracker-php
+
+  # Database
+  database:
+    image: mariadb:11.2.3
+    volumes:
+      - database_data:/var/lib/mysql
+    env_file:
+      - .env.local
+    ports:
+      - 3307:3306
+    container_name: loltracker-database
+
+  # Mailer
+  mailer:
+    image: axllent/mailpit
+    ports:
+      - "1025"
+      - "8025"
+    environment:
+      MP_SMTP_AUTH_ACCEPT_ANY: 1
+      MP_SMTP_AUTH_ALLOW_INSECURE: 1
+    container_name: loltracker-mailer
+
+volumes:
+  php_data:
+  database_data:

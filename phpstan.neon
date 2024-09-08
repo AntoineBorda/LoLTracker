@@ -1,0 +1,5 @@
+
+parameters:
+    ignoreErrors:
+        - message: '#PHPDoc tag @implements contains generic type Symfony\\Component\\Security\\Core\\User\\PasswordUpgraderInterface<App\\Entity\\Account\\User\\User> but interface Symfony\\Component\\Security\\Core\\User\\PasswordUpgraderInterface is not generic#'
+          path: %currentWorkingDirectory%/src/Repository/Account/User/UserRepository.php

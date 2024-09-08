@@ -1,0 +1,14 @@
+{% extends 'base/base.html.twig' %}
+
+{% block title %}
+	{{ parent() }}
+	- Tracker
+{% endblock %}
+
+{% block body %}
+
+	<div class="p-8 pt-0 mt-6 border rounded-lg bg-background">
+		{% include 'pages/app/tracker/tracker/components/_tracker.html.twig' %}
+	</div>
+
+{% endblock %}

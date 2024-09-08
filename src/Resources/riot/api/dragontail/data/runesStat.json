@@ -1,0 +1,72 @@
+[
+  {
+    "id": 5003,
+    "name": "Magic Resist",
+    "shortDesc": "+8 Magic Resist",
+    "longDesc": "+8 Magic Resist",
+    "icon": "perk-images/StatMods/StatModsMagicResIcon.png"
+  },
+  {
+    "id": 5012,
+    "name": "Resist Scaling",
+    "shortDesc": "+1-8 Armor and Magic Resist (based on level)",
+    "longDesc": "+1-8 Armor and Magic Resist (based on level)",
+    "icon": "perk-images/StatMods/StatModsAdaptiveForceScalingIcon.png"
+  },
+  {
+    "id": 5002,
+    "name": "Armor",
+    "shortDesc": "+6 Armor",
+    "longDesc": "+6 Armor",
+    "icon": "perk-images/StatMods/StatModsArmorIcon.png"
+  },
+  {
+    "id": 5011,
+    "name": "Health",
+    "shortDesc": "+65 Health",
+    "longDesc": "+65 Health",
+    "icon": "perk-images/StatMods/StatModsHealthScalingIcon.png"
+  },
+  {
+    "id": 5013,
+    "name": "Tenacity and Slow Resist",
+    "shortDesc": "+10% Tenacity and Slow Resist",
+    "longDesc": "+10% Tenacity and Slow Resist",
+    "icon": "perk-images/StatMods/StatModsTenacityIcon.png"
+  },
+  {
+    "id": 5008,
+    "name": "Adaptive Force",
+    "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+    "longDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
+    "icon": "perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+  },
+  {
+    "id": 5001,
+    "name": "Health Scaling",
+    "shortDesc": "+10-180 Health (based on level)",
+    "longDesc": "+10-180 Health (based on level)",
+    "icon": "perk-images/StatMods/StatModsHealthPlusIcon.png"
+  },
+  {
+    "id": 5007,
+    "name": "Ability Haste",
+    "shortDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> ",
+    "longDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> ",
+    "icon": "perk-images/StatMods/StatModsCDRScalingIcon.png"
+  },
+  {
+    "id": 5005,
+    "name": "Attack Speed",
+    "shortDesc": "+10% Attack Speed",
+    "longDesc": "+10% Attack Speed",
+    "icon": "perk-images/StatMods/StatModsAttackSpeedIcon.png"
+  },
+  {
+    "id": 5010,
+    "name": "Move Speed",
+    "shortDesc": "+2% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Move Speed</lol-uikit-tooltipped-keyword>",
+    "longDesc": "+2% <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>Move Speed</lol-uikit-tooltipped-keyword>",
+    "icon": "perk-images/StatMods/StatModsMovementSpeedIcon.png"
+  }
+]

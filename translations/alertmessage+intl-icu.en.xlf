@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id=".d912Lf" resname="riotinfos.delete.titlefirst">
+        <source>riotinfos.delete.titlefirst</source>
+        <target>__riotinfos.delete.titlefirst</target>
+      </trans-unit>
+      <trans-unit id="d7kYS4u" resname="riotinfos.delete.textfirst">
+        <source>riotinfos.delete.textfirst</source>
+        <target>__riotinfos.delete.textfirst</target>
+      </trans-unit>
+      <trans-unit id="9XXKWLy" resname="riotinfos.delete.cancelfirst">
+        <source>riotinfos.delete.cancelfirst</source>
+        <target>__riotinfos.delete.cancelfirst</target>
+      </trans-unit>
+      <trans-unit id="e4lONHv" resname="riotinfos.delete.confirmfirst">
+        <source>riotinfos.delete.confirmfirst</source>
+        <target>__riotinfos.delete.confirmfirst</target>
+      </trans-unit>
+      <trans-unit id="e0AGdJq" resname="riotinfos.delete.titlesecond">
+        <source>riotinfos.delete.titlesecond</source>
+        <target>__riotinfos.delete.titlesecond</target>
+      </trans-unit>
+      <trans-unit id="eBY7t00" resname="riotinfos.delete.cancelsecond">
+        <source>riotinfos.delete.cancelsecond</source>
+        <target>__riotinfos.delete.cancelsecond</target>
+      </trans-unit>
+      <trans-unit id="u1xcMd7" resname="riotinfos.delete.confirmsecond">
+        <source>riotinfos.delete.confirmsecond</source>
+        <target>__riotinfos.delete.confirmsecond</target>
+      </trans-unit>
+      <trans-unit id="MzWZRKF" resname="twitchinfos.delete.titlefirst">
+        <source>twitchinfos.delete.titlefirst</source>
+        <target>__twitchinfos.delete.titlefirst</target>
+      </trans-unit>
+      <trans-unit id="qUKg3OH" resname="twitchinfos.delete.textfirst">
+        <source>twitchinfos.delete.textfirst</source>
+        <target>__twitchinfos.delete.textfirst</target>
+      </trans-unit>
+      <trans-unit id="ThOhP2Z" resname="twitchinfos.delete.cancelfirst">
+        <source>twitchinfos.delete.cancelfirst</source>
+        <target>__twitchinfos.delete.cancelfirst</target>
+      </trans-unit>
+      <trans-unit id="UlkvAdk" resname="twitchinfos.delete.confirmfirst">
+        <source>twitchinfos.delete.confirmfirst</source>
+        <target>__twitchinfos.delete.confirmfirst</target>
+      </trans-unit>
+      <trans-unit id="P0L3zOE" resname="twitchinfos.delete.titlesecond">
+        <source>twitchinfos.delete.titlesecond</source>
+        <target>__twitchinfos.delete.titlesecond</target>
+      </trans-unit>
+      <trans-unit id="p7X5g39" resname="twitchinfos.delete.cancelsecond">
+        <source>twitchinfos.delete.cancelsecond</source>
+        <target>__twitchinfos.delete.cancelsecond</target>
+      </trans-unit>
+      <trans-unit id="UzOTUW5" resname="twitchinfos.delete.confirmsecond">
+        <source>twitchinfos.delete.confirmsecond</source>
+        <target>__twitchinfos.delete.confirmsecond</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+{# HEADER #}
+<div class="card-header border-bottom border-primary">
+	<h4 class="mb-0">
+		{{ 'securityDelete.header.title'|trans({}, 'user') }}
+	</h4>
+</div>
+
+{# BODY #}
+<div class="card-body">
+
+	<p class="text-danger fw-bold">
+		⚠️
+		{{ 'securityDelete.warning'|trans({}, 'user') }}
+		⚠️
+	</p>
+
+	{# FORM #}
+	{{ form_start(form) }}
+	{{ form_end(form) }}
+
+</div>

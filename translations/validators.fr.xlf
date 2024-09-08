@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="VKDowX6" resname="Error">
+        <source>Error</source>
+        <target>Erreur</target>
+      </trans-unit>
+      <trans-unit id="qlOyT39" resname="RiotInfo déjà présent dans la BDD.">
+        <source>RiotInfo déjà présent dans la BDD.</source>
+        <target>__RiotInfo déjà présent dans la BDD.</target>
+      </trans-unit>
+      <trans-unit id="GbD27oL" resname="Cet email est déjà utilisé.">
+        <source>Cet email est déjà utilisé.</source>
+        <target>__Cet email est déjà utilisé.</target>
+      </trans-unit>
+      <trans-unit id="dAUBDPz" resname="Ce pseudo est déjà utilisé.">
+        <source>Ce pseudo est déjà utilisé.</source>
+        <target>__Ce pseudo est déjà utilisé.</target>
+      </trans-unit>
+      <trans-unit id="_ZcZndG" resname="Merci de renseigner un email.">
+        <source>Merci de renseigner un email.</source>
+        <target>__Merci de renseigner un email.</target>
+      </trans-unit>
+      <trans-unit id="tEK3s1q" resname="Merci de renseigner un email valide.">
+        <source>Merci de renseigner un email valide.</source>
+        <target>__Merci de renseigner un email valide.</target>
+      </trans-unit>
+      <trans-unit id="llen1Ef" resname="L'email doit contenir au moins {{ limit }} caractères.">
+        <source>L'email doit contenir au moins {{ limit }} caractères.</source>
+        <target>__L'email doit contenir au moins {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id=".sjprCk" resname="L'email doit contenir au maximum {{ limit }} caractères.">
+        <source>L'email doit contenir au maximum {{ limit }} caractères.</source>
+        <target>__L'email doit contenir au maximum {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id="qOwXKHB" resname="Merci de renseigner un mot de passe.">
+        <source>Merci de renseigner un mot de passe.</source>
+        <target>__Merci de renseigner un mot de passe.</target>
+      </trans-unit>
+      <trans-unit id=".HdzZ2h" resname="Le mot de passe doit contenir au moins {{ limit }} caractères.">
+        <source>Le mot de passe doit contenir au moins {{ limit }} caractères.</source>
+        <target>__Le mot de passe doit contenir au moins {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id="RYBf.8E" resname="Le mot de passe doit contenir au maximum {{ limit }} caractères.">
+        <source>Le mot de passe doit contenir au maximum {{ limit }} caractères.</source>
+        <target>__Le mot de passe doit contenir au maximum {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id="i.C97U2" resname="Merci de renseigner un pseudo.">
+        <source>Merci de renseigner un pseudo.</source>
+        <target>__Merci de renseigner un pseudo.</target>
+      </trans-unit>
+      <trans-unit id="_.A84ja" resname="Votre pseudo doit contenir au moins {{ limit }} caractères.">
+        <source>Votre pseudo doit contenir au moins {{ limit }} caractères.</source>
+        <target>__Votre pseudo doit contenir au moins {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id="_MEHxrz" resname="Votre pseudo doit contenir au maximum {{ limit }} caractères.">
+        <source>Votre pseudo doit contenir au maximum {{ limit }} caractères.</source>
+        <target>__Votre pseudo doit contenir au maximum {{ limit }} caractères.</target>
+      </trans-unit>
+      <trans-unit id="1pxZgx8" resname="Joueur déjà présent dans la BDD.">
+        <source>Joueur déjà présent dans la BDD.</source>
+        <target>__Joueur déjà présent dans la BDD.</target>
+      </trans-unit>
+      <trans-unit id="_ZJizwx" resname="Twitch déjà présent dans la BDD.">
+        <source>Twitch déjà présent dans la BDD.</source>
+        <target>__Twitch déjà présent dans la BDD.</target>
+      </trans-unit>
+      <trans-unit id="xeCNcn0" resname="Tracker déjà présent dans la BDD.">
+        <source>Tracker déjà présent dans la BDD.</source>
+        <target>__Tracker déjà présent dans la BDD.</target>
+      </trans-unit>
+      <trans-unit id="o5rNHxm" resname="Merci de renseigner votre mot de passe">
+        <source>Merci de renseigner votre mot de passe</source>
+        <target>__Merci de renseigner votre mot de passe</target>
+      </trans-unit>
+      <trans-unit id="V9lfDl7" resname="Votre mot de passe doit contenir au moins {{ limit }} caractères">
+        <source>Votre mot de passe doit contenir au moins {{ limit }} caractères</source>
+        <target>__Votre mot de passe doit contenir au moins {{ limit }} caractères</target>
+      </trans-unit>
+      <trans-unit id="GkQtR4t" resname="Merci de renseigner votre email">
+        <source>Merci de renseigner votre email</source>
+        <target>__Merci de renseigner votre email</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

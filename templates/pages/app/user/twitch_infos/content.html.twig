@@ -1,0 +1,33 @@
+{# HEADING #}
+<div class="card-header border-bottom border-primary">
+	<h4 class="mb-0">
+		{{ 'twitchinfo.header.title'|trans({}, 'user') }}
+	</h4>
+</div>
+
+{# BODY #}
+<div class="card-body">
+
+	{% if twitchInfos is not empty %}
+		<div class="card border border-success bg-black bg-opacity-50 rounded-2 neumorphism mt-4">
+			<div class="card-body">
+				<span class="text-success fw-bold">{{ 'twitchinfo.linksuccess'|trans({}, 'user') }}</span>
+				<div class="fs-sm">
+					<span>{{ twitchInfos.0.login }}</span>
+					-
+					<span>{{ twitchInfos.0.email }}</span>
+				</div>
+				{% include "pages/account/user/twitch_infos/components/_delete_form.html.twig" %}
+			</div>
+		</div>
+
+	{% else %}
+		<div class="card border border-danger bg-black bg-opacity-50 rounded-2 neumorphism mt-4">
+			<div class="card-body">
+				<p class="text-danger fw-bold">{{ 'twitchinfo.nolink'|trans({}, 'user') }}</p>
+				<a class="fw-bold" href="{{ twitchUrl }}">{{ 'twitchinfo.link'|trans({}, 'user') }}</a>
+			</div>
+		</div>
+	{% endif %}
+
+</div>

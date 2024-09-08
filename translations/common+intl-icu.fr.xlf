@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="IWZcogH" resname="victory">
+        <source>victory</source>
+        <target>__victory</target>
+      </trans-unit>
+      <trans-unit id="X.9bTux" resname="defeat">
+        <source>defeat</source>
+        <target>__defeat</target>
+      </trans-unit>
+      <trans-unit id="gZtguyU" resname="variation">
+        <source>variation</source>
+        <target>__variation</target>
+      </trans-unit>
+      <trans-unit id="Cnqsrpt" resname="lp">
+        <source>lp</source>
+        <target>__lp</target>
+      </trans-unit>
+      <trans-unit id="L1867ww" resname="start.title">
+        <source>start.title</source>
+        <target>__start.title</target>
+      </trans-unit>
+      <trans-unit id="A1MfxNZ" resname="current.title">
+        <source>current.title</source>
+        <target>__current.title</target>
+      </trans-unit>
+      <trans-unit id="0MuNKP2" resname="disconnected">
+        <source>disconnected</source>
+        <target>__disconnected</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

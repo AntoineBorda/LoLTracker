@@ -1,0 +1,31 @@
+{% set trackerProps = [] %}
+
+{% for gameCreation, games in gamesByDate %}
+
+	{% set date = gameCreation | default(null) %}
+
+	{% set win = [] %}
+	{% for game in games %}
+		{% set win = win|merge([game.win]) %}
+	{% endfor %}
+
+	{% set trackerProps = trackerProps|merge([{
+		'date': date,
+		'win': win,
+		    }]) %}
+
+{% endfor %}
+
+<div {{ react_component('Tracker', {'trackerProps': trackerProps} ) }}>
+	<twig:ux:icon name="line-md:loading-loop" class="w-10"/>
+</div>
+
+
+<div class="mt-24">
+	GAME BY DATE
+	{{ dump(gamesByDate) }}
+	GAME PAGINATION
+	{{ dump(gamesPagination) }}
+	DATA
+	{{ dump(data) }}
+</div>

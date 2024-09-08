@@ -1,0 +1,11 @@
+{% set filterProps = {
+	'bottom': asset('build/img/communitydragon/role-icons/bottom.png'),
+	'jungle': asset('build/img/communitydragon/role-icons/jungle.png'),
+	'middle': asset('build/img/communitydragon/role-icons/middle.png'),
+	'top': asset('build/img/communitydragon/role-icons/top.png'),
+	'utility': asset('build/img/communitydragon/role-icons/utility.png'),
+} %}
+
+<div {{ react_component('Filter', {'filterProps': filterProps} ) }}>
+	<twig:ux:icon name="line-md:loading-loop" class="w-10"/>
+</div>

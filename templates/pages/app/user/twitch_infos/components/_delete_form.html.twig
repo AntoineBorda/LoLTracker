@@ -1,0 +1,11 @@
+<form class="d-inline sa-alertmessage-doublecheck" method="post" action="{{ path('user_twitchinfos_delete', {'id': twitchInfos.0.id}) }}" data-titlefirst="{{ 'twitchinfos.delete.titlefirst'|trans({}, 'alertmessage') }}" data-textfirst="{{ 'twitchinfos.delete.textfirst'|trans({}, 'alertmessage') }}" data-cancelfirst="{{ 'twitchinfos.delete.cancelfirst'|trans({}, 'alertmessage') }}" data-confirmfirst="{{ 'twitchinfos.delete.confirmfirst'|trans({}, 'alertmessage') }}" data-titlesecond="{{ 'twitchinfos.delete.titlesecond'|trans({}, 'alertmessage') }}" data-cancelsecond="{{ 'twitchinfos.delete.cancelsecond'|trans({}, 'alertmessage') }}" data-confirmsecond="{{ 'twitchinfos.delete.confirmsecond'|trans({}, 'alertmessage') }}">
+
+	<input type="hidden" name="_token" value="{{ csrf_token('delete' ~ twitchInfos.0.id) }}">
+	<button class="btn btn-link p-0">
+		<div class="text-danger fs-xs">
+			<i class="fa-solid fa-link-slash"></i>
+			{{ 'disconnected'|trans({}, 'common') }}
+		</div>
+	</button>
+
+</form>
