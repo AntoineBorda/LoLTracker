@@ -5,7 +5,8 @@ App designed for the European competitive segment of League Of Legends. Its aim?
 
 ## 🖵 Screenshots
 
-![App Screenshot](/readme.png)
+![App Screenshot](/readmelight.png)
+![App Screenshot](/readmedark.png)
 
 ## ✨ Significant Features
 
@@ -23,29 +24,28 @@ App designed for the European competitive segment of League Of Legends. Its aim?
 
 ## ⚙️ Installation and QuickStart with Docker
 
-1. Clone the project
+Clone the project
 
-2. Install dependencies with composer
+Install dependencies with composer
 
 ```bash
   composer install
 ```
 
-3. 2. Install dependencies with npm
-    
+Install dependencies with npm
+
 ```bash
   npm install
 ```
 
-4. Setting up the environment
+Setting up the environment
 
 ```bash
-  Duplicate the .env file to .env.local and modify the values to suit your local 
-  local configuration.
+  Duplicate the .env file to .env.local and modify the values to suit your local configuration.
   In particular, the database connection string (DATABASE_URL).
 ```
 
-5. QuickStart with Docker
+QuickStart with Docker
 
 ```bash
   make npm
@@ -53,9 +53,11 @@ App designed for the European competitive segment of League Of Legends. Its aim?
 ```
 
 ## 🚀 About Me
+
 I'm a full stack developer specialized in php and symfony
 
 ## 🛠 Skills
+
 PHP 8, Symfony 7, TailwindCSS, HTML, CSS, JS, MYSQL
 
 ## ✉️ Contact / Author
