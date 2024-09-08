@@ -63,8 +63,8 @@ PHP 8, Symfony 7, TailwindCSS, HTML, CSS, JS, MYSQL
 
 ## ✉️ Contact / Author
 
-- [@antoineborda](https://www.github.com/antoineborda)
+- [@antoineborda](https://www.github.com/antoineborda)  
 Antoine Borda  
 [dev@antoineborda.com](mailto:pro@antoineborda.com)  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoineborda/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoineborda/)  
 If you have any questions, please do not hesitate to contact me !
