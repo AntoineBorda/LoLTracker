@@ -10,7 +10,7 @@ App designed for the European competitive segment of League Of Legends. Its aim?
 
 ## ✨ Significant Features
 
-- **Api/Cron :** Automatisation du tracking toutes les 10 minutes.
+- **Api/Cron :** Automated tracking every 10 minutes.
 
 ## 📌 License
 
