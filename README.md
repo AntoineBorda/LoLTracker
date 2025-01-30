@@ -1,7 +1,8 @@
 
 # 🎉 LoL Tracker
 
-App designed for the European competitive segment of League Of Legends. Its aim? Track the rankings of all League Of Legends (LoL Esport) Pro League players' main accounts. LP variations, daily results, etc.
+App designed for the European competitive segment of League Of Legends. Its aim? Track the rankings of all League Of Legends (LoL Esport) Pro League players' main accounts. LP variations, daily results, etc.  
+"Work-in-progress side project, experimental prototype aimed at learning and exploring new skills. Not finished and not production-ready."  
 
 ## 📌 License
 
